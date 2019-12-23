@@ -1,0 +1,45 @@
+[dependencies]
+log = "0.4"
+num_cpus = "1.0"
+
+[dependencies.rustc_data_structures]
+package = "rustfmt_data_structures"
+path = "../librustc_data_structures"
+
+[dependencies.rustc_errors]
+package = "rustfmt_errors"
+path = "../librustc_errors"
+
+[dependencies.rustc_feature]
+package = "rustfmt_feature"
+path = "../librustc_feature"
+
+[dependencies.rustc_fs_util]
+package = "rustfmt_fs_util"
+path = "../librustc_fs_util"
+
+[dependencies.rustc_index]
+package = "rustfmt_index"
+path = "../librustc_index"
+
+[dependencies.rustc_serialize]
+package = "rustfmt_serialize"
+path = "../libserialize"
+
+[dependencies.rustc_target]
+package = "rustfmt_target"
+path = "../librustc_target"
+
+[dependencies.syntax_pos]
+package = "rustfmt_syntax_pos"
+path = "../libsyntax_pos"
+
+[lib]
+name = "rustc_session"
+path = "lib.rs"
+
+[package]
+authors = ["The Rust Project Developers"]
+edition = "2018"
+name = "rustfmt_session"
+version = "0.0.0"

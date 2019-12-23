@@ -1,0 +1,57 @@
+[dependencies]
+bitflags = "1.2.1"
+cfg-if = "0.1.2"
+ena = "0.13.1"
+indexmap = "1"
+lazy_static = "1"
+log = "0.4"
+measureme = "0.5"
+rustc-hash = "1.0.1"
+stable_deref_trait = "1.0.0"
+
+[dependencies.crossbeam-utils]
+features = ["nightly"]
+version = "0.6.5"
+
+[dependencies.graphviz]
+package = "rustfmt_graphviz"
+path = "../libgraphviz"
+
+[dependencies.jobserver_crate]
+package = "jobserver"
+version = "0.1.13"
+
+[dependencies.parking_lot]
+features = ["nightly"]
+version = "0.9"
+
+[dependencies.rayon]
+package = "rustc-rayon"
+version = "0.3.0"
+
+[dependencies.rayon-core]
+package = "rustc-rayon-core"
+version = "0.3.0"
+
+[dependencies.rustc_index]
+package = "rustfmt_index"
+path = "../librustc_index"
+
+[dependencies.rustc_serialize]
+package = "rustfmt_serialize"
+path = "../libserialize"
+
+[dependencies.smallvec]
+features = ["union", "may_dangle"]
+version = "1.0"
+
+[lib]
+doctest = false
+name = "rustc_data_structures"
+path = "lib.rs"
+
+[package]
+authors = ["The Rust Project Developers"]
+edition = "2018"
+name = "rustfmt_data_structures"
+version = "0.0.0"

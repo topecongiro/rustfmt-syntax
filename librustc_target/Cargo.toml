@@ -1,0 +1,33 @@
+[dependencies]
+bitflags = "1.2.1"
+log = "0.4"
+
+[dependencies.rustc_data_structures]
+package = "rustfmt_data_structures"
+path = "../librustc_data_structures"
+
+[dependencies.rustc_index]
+package = "rustfmt_index"
+path = "../librustc_index"
+
+[dependencies.rustc_macros]
+package = "rustfmt_macros"
+path = "../librustc_macros"
+
+[dependencies.rustc_serialize]
+package = "rustfmt_serialize"
+path = "../libserialize"
+
+[dependencies.syntax_pos]
+package = "rustfmt_syntax_pos"
+path = "../libsyntax_pos"
+
+[lib]
+name = "rustc_target"
+path = "lib.rs"
+
+[package]
+authors = ["The Rust Project Developers"]
+edition = "2018"
+name = "rustfmt_target"
+version = "0.0.0"

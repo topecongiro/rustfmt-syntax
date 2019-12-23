@@ -1,0 +1,46 @@
+[dependencies]
+bitflags = "1.0"
+log = "0.4"
+
+[dependencies.rustc_data_structures]
+package = "rustfmt_data_structures"
+path = "../librustc_data_structures"
+
+[dependencies.rustc_error_codes]
+package = "rustfmt_error_codes"
+path = "../librustc_error_codes"
+
+[dependencies.rustc_errors]
+package = "rustfmt_errors"
+path = "../librustc_errors"
+
+[dependencies.rustc_feature]
+package = "rustfmt_feature"
+path = "../librustc_feature"
+
+[dependencies.rustc_lexer]
+package = "rustfmt_lexer"
+path = "../librustc_lexer"
+
+[dependencies.smallvec]
+features = ["union", "may_dangle"]
+version = "1.0"
+
+[dependencies.syntax]
+package = "rustfmt_syntax"
+path = "../libsyntax"
+
+[dependencies.syntax_pos]
+package = "rustfmt_syntax_pos"
+path = "../libsyntax_pos"
+
+[lib]
+doctest = false
+name = "rustc_parse"
+path = "lib.rs"
+
+[package]
+authors = ["The Rust Project Developers"]
+edition = "2018"
+name = "rustfmt_parse"
+version = "0.0.0"

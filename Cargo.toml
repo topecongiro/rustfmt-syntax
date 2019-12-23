@@ -1,0 +1,19 @@
+[workspace]
+members = [
+  "libarena",
+  "libgraphviz",
+  "librustc_data_structures",
+  "librustc_error_codes",
+  "librustc_errors",
+  "librustc_feature",
+  "librustc_fs_util",
+  "librustc_index",
+  "librustc_lexer",
+  "librustc_macros",
+  "librustc_parse",
+  "librustc_session",
+  "librustc_target",
+  "libserialize",
+  "libsyntax",
+  "libsyntax_pos",
+]

@@ -1,0 +1,11 @@
+[dependencies]
+
+[lib]
+name = "rustc_fs_util"
+path = "lib.rs"
+
+[package]
+authors = ["The Rust Project Developers"]
+edition = "2018"
+name = "rustfmt_fs_util"
+version = "0.0.0"
